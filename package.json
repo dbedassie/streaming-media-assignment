@@ -1,0 +1,30 @@
+{
+    "name": "streaming-media-assignment",
+    "version": "1.0.0",
+    "engines": {
+        "node": "15.7.0",
+        "npm": "7.4.3"
+    },
+    "description": "Streaming media assignment from Professor Willoughby for IGME430 at RIT",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests completed\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dbedassie/streaming-media-assignment.git"
+    },
+    "author": "Durrell Bedassie",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/dbedassie/streaming-media-assignment/issues"
+    },
+    "homepage": "https://github.com/dbedassie/streaming-media-assignment#readme",
+    "devDependencies": {
+        "eslint": "^7.19.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-plugin-import": "^2.22.1"
+    }
+}
